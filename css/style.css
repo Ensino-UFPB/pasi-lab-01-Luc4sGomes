@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  min-height: 100vh;
+  min-width: 100vw;
+  font-family: sans-serif;
+  background-color: whitesmoke;
+}
+
+.keep-main-info {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column wrap;
+  padding: 32px;
+}
+
+.description-logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+
+.keep-table {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
